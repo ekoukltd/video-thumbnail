@@ -14,7 +14,7 @@
     "require": {
         "php": ">=8.0",
         "ext-gd": "*",
-        "illuminate/support": "^9.0",
+        "illuminate/support": "^10|^9.0",
         "php-ffmpeg/php-ffmpeg": "^1.0.0"
     },
     "autoload": {
