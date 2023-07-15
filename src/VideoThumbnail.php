@@ -4,7 +4,7 @@
  * Video thumbnail class for implementing FFMpeg Features
  */
 
-namespace Pawlox\VideoThumbnail;
+namespace Ekoukltd\VideoThumbnail;
 
 use FFMpeg\Media\Video;
 use FFMpeg\FFMpeg;

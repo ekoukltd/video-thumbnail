@@ -1,6 +1,6 @@
 <?php
 
-namespace Pawlox\VideoThumbnail\Facade;
+namespace Ekoukltd\VideoThumbnail\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

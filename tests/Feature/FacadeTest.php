@@ -1,10 +1,10 @@
 <?php
 
-namespace Pawlox\VideoThumbnail\Tests\Feature;
+namespace Ekoukltd\VideoThumbnail\Tests\Feature;
 
 use Illuminate\Support\Facades\File;
-use Pawlox\VideoThumbnail\Facade\VideoThumbnail;
-use Pawlox\VideoThumbnail\Tests\TestCase;
+use Ekoukltd\VideoThumbnail\Facade\VideoThumbnail;
+use Ekoukltd\VideoThumbnail\Tests\TestCase;
 
 class FacadeTest extends TestCase
 {

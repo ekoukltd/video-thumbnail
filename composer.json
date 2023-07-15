@@ -1,5 +1,5 @@
 {
-    "name": "pawlox/video-thumbnail",
+    "name": "ekoukltd/video-thumbnail",
     "description": "Video thumbnails",
     "keywords": [
         "Video Thumbnails", "Laravel video thumbnail", "Laravel"
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Pawlox\\VideoThumbnail\\": "src/"
+            "Ekoukltd\\VideoThumbnail\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Pawlox\\VideoThumbnail\\Tests\\": "tests"
+            "Ekoukltd\\VideoThumbnail\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",

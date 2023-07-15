@@ -4,26 +4,26 @@ Simple package for generating video thumbnail in Laravel using FFMpeg.
 
 ## Support my work
 
-If you want to support my work in other way than contributing the code itself, you can always pass me some small donation :beer: at https://paypal.me/pawlox :)
+If you want to support my work in other way than contributing the code itself, you can always pass me some small donation :beer: at https://paypal.me/ekoukltd :)
 
 ## Installation
 
 Composer install:
 
 ```
-composer require pawlox/video-thumbnail
+composer require ekoukltd/video-thumbnail
 ```
 
 After package installation, add the ServiceProvider to the providers array in config/app.php
 
 ```
-Pawlox\VideoThumbnail\VideoThumbnailServiceProvider::class
+Ekoukltd\VideoThumbnail\VideoThumbnailServiceProvider::class
 ```
 
 And to the aliases array
 
 ```
-'VideoThumbnail' => Pawlox\VideoThumbnail\Facade\VideoThumbnail::class
+'VideoThumbnail' => Ekoukltd\VideoThumbnail\Facade\VideoThumbnail::class
 ```
 
 Also you can publish package config file with:
@@ -41,13 +41,13 @@ FFPROBE="/usr/bin/ffprobe"
 
 ## Versions
 
-| Laravel             | PHP                | pawlox/video-thumbnail | php-ffmpeg/php-ffmpeg |
-|---------------------|--------------------|------------------------|-----------------------|
-| \>= ^5.0 and < ^5.8 | < 7.4              | ^1.*                   | 0.11.0                |
-| ^5.8 and ^6.*       | \>= 7.4 and <= 8.1 | ^2.*                   | 0.13.0                |
-| ^7.* and ^8.*       | \>= 7.4 and <= 8.1 | ^3.*                   | 0.19.0                |
-| ^9.*                | \>= 8.0            | ^4.*                   | 1.*                   |
-
+| Laravel             | PHP                | ekoukltd/video-thumbnail | php-ffmpeg/php-ffmpeg |
+|---------------------|--------------------|--------------------------|-----------------------|
+| \>= ^5.0 and < ^5.8 | < 7.4              | ^1.*                     | 0.11.0                |
+| ^5.8 and ^6.*       | \>= 7.4 and <= 8.1 | ^2.*                     | 0.13.0                |
+| ^7.* and ^8.*       | \>= 7.4 and <= 8.1 | ^3.*                     | 0.19.0                |
+| ^9.*                | \>= 8.0            | ^4.*                     | 1.*                   |
+| ^10.*               | \>= 8.1            | ^5.*                     | 1.*                   |
 ## Usage
 
 ```

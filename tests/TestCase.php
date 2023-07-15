@@ -1,9 +1,9 @@
 <?php
 
-namespace Pawlox\VideoThumbnail\Tests;
+namespace Ekoukltd\VideoThumbnail\Tests;
 
 use Illuminate\Foundation\Bootstrap\LoadEnvironmentVariables;
-use Pawlox\VideoThumbnail\VideoThumbnailServiceProvider;
+use Ekoukltd\VideoThumbnail\VideoThumbnailServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pawlox\VideoThumbnail;
+namespace Ekoukltd\VideoThumbnail;
 
 use Illuminate\Support\ServiceProvider;
 
